@@ -59,12 +59,12 @@ public class LoginController {
 		String result = "<span style=\"color:%s; font-weight:bold;\">%s</span>";
 
 		if (name.length() >= WEAK_STRENGTH & name.length() < FEAR_STRENGTH) {
-			// добавить локализацию
-			return String.format(result, WEAK_COLOR, "Слабый");
+			// add localization
+			return String.format(result, WEAK_COLOR, "Cлабкий");
 		} else if (name.length() >= FEAR_STRENGTH & name.length() < STRONG_STRENGTH) {
-			return String.format(result, FEAR_COLOR, "Средний");
+			return String.format(result, FEAR_COLOR, "Середній");
 		} else if (name.length() >= STRONG_STRENGTH) {
-			return String.format(result, STRONG_COLOR, "Сильный");
+			return String.format(result, STRONG_COLOR, "Сильний");
 		}
 		return "";
 	}

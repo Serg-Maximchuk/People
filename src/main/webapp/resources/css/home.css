@@ -341,7 +341,9 @@ a:hover {
 */
 body {
 	background: #444;
-	background-image: url(http://cs7052.vk.me/c540101/v540101508/256a8/InqfcpFzkps.jpg);
+	background-image: url(logo2.jpg);
+	/*
+	background-image: url(http://cs7052.vk.me/c540101/v540101508/256a8/InqfcpFzkps.jpg);*/
 	background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
 	-webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
 	-moz-background-size: cover; /* optional for Firefox 3.6 */ 

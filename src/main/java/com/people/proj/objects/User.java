@@ -16,7 +16,7 @@ public class User {
 	}
 
 	@Size(min = 6, message = "{name.size.error}")
-	// Имя должно быть больше 6 знаков
+	// Name must be bigger than 6 letters
 	private String name;
 
 	@Size(min = 5, max = 10, message = "{password.size.error}")
